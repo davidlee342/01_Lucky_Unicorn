@@ -1,2 +1,2 @@
-response = int(input("Enter a number: "))
-print(response)
+# ask user for number
+#loop question so that it repeats until vali
