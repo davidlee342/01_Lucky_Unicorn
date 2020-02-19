@@ -1,0 +1,26 @@
+# ask user for number
+# loop question so that it repeats until valid number is entered
+# make code recyclable
+
+#function goes here
+def intcheck(question, low, high):
+    valid = False
+    while not valid:
+        error = "Whoops! please enter an integer between {} and {}".format(low, high)
+
+        try:
+            response = int(input("Enter an integer between {} and {}: ".format(low, high)))
+
+            if low <= response <= high:
+                return response
+            else:
+                print(error)
+                print()
+
+        except ValueError:
+            print(error)
+
+# mian routine gose here
+
+num_1 = intcheck("Enter a number between 1 and 15", 1, 15)
+num_2 = intcheck(" Enter a number between 5 and 10",5 , 10)

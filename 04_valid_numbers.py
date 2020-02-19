@@ -12,8 +12,10 @@ while not valid:
         if  1 <= response <= 10:
               valid = True
         else:
-             print(error)
-             print()
+            print(error)
+            print()
 
-    except ValueError
-          print()
+    except ValueError:
+             print(error)
+
+print(response)
