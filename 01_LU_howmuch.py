@@ -5,7 +5,7 @@
 def intcheck(question, low, high):
     valid = False
     while not valid:
-        error = "Whoops! please enter an integer between {} " \
+        error = "Whoops! please enter an integer between {} "
                  "and {}" .format(low, high)
 
         try:

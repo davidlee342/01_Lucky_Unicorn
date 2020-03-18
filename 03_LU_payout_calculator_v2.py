@@ -12,8 +12,9 @@
 import random
 
 HOW_MUCH = 100
-tokens = ["horse", "zebra", "donkey", "unicorn"]
-
+tokens = ["horse","horse","horse",
+          "zebra", "zebra","zebra",
+          "Donkeys","Donkeys","Donkeys", "Unicorns"]
 unicorn_count = 0
 zebhor_count = 0
 donkey_count = 0
